@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 11rem;
+    font-family: 'Spectral';
+}
+
+.bg-img {
+    position: absolute;
+    inset: 0;
+    background-image: url("https://images.pexels.com/photos/2098134/pexels-photo-2098134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+h1 {
+    font-family: "Beth Ellen";
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+span {
+    background: linear-gradient(to right, #ff5563, #5c070e);
+    background-clip: text;
+    color: transparent;
+    padding: 0.75rem;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 4.5rem;
+}
+
+a {
+    background-color: #ff5563;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #be3440;
+    transition-duration: 300ms;
+}
+
+h1, p, a {
+    animation: apper 1s backwards;
+}
+
+h1 {
+    animation-delay: 0.2s;
+}
+
+p {
+    animation-delay: 0.8s;
+}
+
+a {
+    animation-delay: 1.2s;
+}
+
+@keyframes apper {
+    from {
+        opacity: 0;
+    }
+}
+
+@media (width < 40rem) {
+    html {
+        font-size: 70%;
+    }
+}
