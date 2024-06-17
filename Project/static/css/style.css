@@ -24,7 +24,7 @@ h1 {
 }
 
 span {
-    background: linear-gradient(to right, #ff5563, #5c070e);
+    background: linear-gradient(to right, #ff5563, #f34c5a);
     background-clip: text;
     color: transparent;
     padding: 0.75rem;
